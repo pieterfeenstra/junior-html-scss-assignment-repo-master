@@ -15,3 +15,26 @@ $icon-font-path: '../fonts/';
 // ------------------------------------
 
 @import 'app/styles/partials/logo';
+
+// nav
+.navbar-inverse{
+  background-color: #040101;
+  .navbar-brand{
+    padding-top: 10px;
+    img{
+      // height: 100%;
+      width: 100px;
+    }
+  }
+}
+
+// jumbotron
+
+  .jumbotron{
+    background: url('/images/main.jpg') no-repeat top left;
+    background-size: cover;
+    height: 600px;
+    .container{
+        
+    }
+  }
