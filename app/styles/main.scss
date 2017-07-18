@@ -16,7 +16,7 @@ $icon-font-path: '../fonts/';
 
 @import 'app/styles/partials/logo';
 
-// nav
+// navigation
 .navbar-inverse{
   background-color: #040101;
   .navbar-brand{
@@ -35,6 +35,21 @@ $icon-font-path: '../fonts/';
     background-size: cover;
     height: 600px;
     .container{
-        
+      margin-top: 250px;
+      .row{
+        .col-xs-6{
+          background-color: #000;
+          padding: 25px;
+          text-align: center;
+          border: 2px solid #fff;
+          border-radius: 3px;
+          h1{
+            margin-top: 10px;
+            color :#fff;
+
+          }
+        }
+      }
+
     }
   }
